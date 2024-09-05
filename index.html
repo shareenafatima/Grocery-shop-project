@@ -3,119 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh Vegetables Store</title>
+    <title>Uomo Online Grocery Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Guerrilla&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="logo">Logo</div>
-        <input type="text" placeholder="Search...">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
+        <div class="container">
+            <div class="top-header">
+                <div class="logo">LOGO</div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for products...">
+                </div>
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
     </header>
-
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <main>
         <section class="hero">
-            <h1>Fresh Hand-Picked Vegetables Everyday</h1>
-            <img src="hero-image.jpg" alt="Vegetables in basket">
-            <div class="services">
-                <div>Fast and Free Delivery</div>
-                <div>24/7 Customer Support</div>
-                <div>Money Back Guarantee</div>
+            <div class="container">
+                <h1>Fresh Groceries Delivered to Your Doorstep</h1>
+                <p>Shop from our wide range of fresh produce and pantry essentials.</p>
             </div>
         </section>
-
-        <section class="featured-products">
-            <h2>Featured Products</h2>
-            <div class="product-grid">
-                <div class="product">Product 1</div>
-                <div class="product">Product 2</div>
-                <div class="product">Product 3</div>
-                <div class="product">Product 4</div>
+        <section class="features">
+            
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3>Free Delivery</h3>
+                    <p>On orders over $50</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-apple-alt"></i>
+                    <h3>Fresh Produce</h3>
+                    <p>Handpicked daily</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-undo"></i>
+                    <h3>Easy Returns</h3>
+                    <p>30-day return policy</p>
+                </div>
+        
+        </section>
+        <section class="products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-grid">
+                    
+                    <div class="product">
+                        <img src="images/apples.jpg" alt="Product Name">
+                        <h3>Apple</h3>
+                        <p>$9.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="images/ginger.jpg" alt="Product Name">
+                        <h3>Ginger</h3>
+                        <p>$9.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="images/kiwi.jpg" alt="Product Name">
+                        <h3>Kiwi</h3>
+                        <p>$9.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="images/garlic.jpg" alt="Product Name">
+                        <h3>Garlic</h3>
+                        <p>$9.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
             </div>
         </section>
-
         <section class="categories">
-            <h2>Shop by Category</h2>
-            <div class="category-grid">
-                <div class="category">Fruit</div>
-                <div class="category">Bakery</div>
-                <div class="category">Fish</div>
-                <div class="category">Meat</div>
+            <div class="container">
+                <h2>Shop by Category</h2>
+                <div class="category-grid">
+                   
+                    <div class="category">
+                        <img src="images/backery.jpg" alt="Category Name">
+                        <h3>backery</h3>
+                    </div>
+                    <div class="category">
+                        <img src="images/milk.jpg" alt="Category Name">
+                        <h3>milk</h3>
+                    </div>
+                    <div class="category">
+                        <img src="images/vegetables.jpg" alt="Category Name">
+                        <h3>vegetables</h3>
+                    </div>
+                    <div class="category">
+                        <img src="images/fruit-basket.jpg" alt="Category Name">
+                        <h3>Fruits</h3>
+                    </div>
+                </div>
             </div>
         </section>
-
         <section class="top-selling">
-            <h2>Top Selling Products</h2>
-            <div class="product-grid">
-                <div class="product">Product 1</div>
-                <div class="product">Product 2</div>
-                <div class="product">Product 3</div>
-                <div class="product">Product 4</div>
+            <div class="container">
+                <h2>Top Selling Products</h2>
+                <div class="product-grid">
+                  
+                    <div class="product">
+                        <img src="images/lots-blueberries.jpg" alt="Top Selling Product">
+                        <h3>Top Selling Product Name</h3>
+                        <p>$19.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="images/french-fries-wood-plate.jpg" alt="Top Selling Product">
+                        <h3>Top Selling Product Name</h3>
+                        <p>$19.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="images/nuts.jpg" alt="Top Selling Product">
+                        <h3>Top Selling Product Name</h3>
+                        <p>$19.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="images/tilapia-raw.jpg" alt="Top Selling Product">
+                        <h3>Top Selling Product Name</h3>
+                        <p>$19.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
             </div>
         </section>
-
         <section class="discount">
-            <h2>Special Discount</h2>
-            <p>Get 20% off on selected items</p>
-            <img src="discount-image.jpg" alt="Discount offer">
-        </section>
-
-        <section class="blog">
-            <h2>Latest Blog Posts</h2>
-            <div class="blog-grid">
-                <div class="blog-post">Blog Post 1</div>
-                <div class="blog-post">Blog Post 2</div>
-                <div class="blog-post">Blog Post 3</div>
+            <div class="container">
+                <h2>Special Offer</h2>
+                <div class="discount-grid">
+                               
+                     <div class="discount-item">
+                            <img src="images/strawberries.jpg" alt="Category Name">
+                            <h3>backery</h3>
+                    </div>
+                    <div class="discount-item">
+                            <img src="images/fresh-pumpkin.jpg" alt="Category Name">
+                            <h3>milk</h3>
+                    </div>
+                    <div class="discount-item">
+                        <img src="images/raw-chicken-meat-legs-isolated-white-background.jpg" alt="Category Name">
+                        <h3>vegetables</h3>
+                     </div>
+                    <div class="discount-item">
+                        <img src="images/bell-pepper.jpg" alt="Category Name">
+                        <h3>Fruits</h3>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-
     <footer>
-        <div class="footer-section">
-            <h3>Contact Us</h3>
-            <p>Email: info@example.com</p>
-            <p>Phone: 123-456-7890</p>
-        </div>
-        <div class="footer-section">
-            <h3>Company</h3>
-            <a href="#">About Us</a>
-            <a href="#">Careers</a>
-        </div>
-        <div class="footer-section">
-            <h3>Shop</h3>
-            <a href="#">All Products</a>
-            <a href="#">Special Offers</a>
-        </div>
-        <div class="footer-section">
-            <h3>Shop</h3>
-            <a href="#">All Products</a>
-            <a href="#">Special Offers</a>
-        </div>
-        <div class="footer-section">
-            <h3>Help</h3>
-            <a href="#">FAQ</a>
-            <a href="#">Shipping</a>
-            <a href="#">Returns</a>
-        </div>
-        <div class="footer-section">
-            <h3>Newsletter</h3>
-            <input type="email" placeholder="Enter your email">
-            <button>Subscribe</button>
-        </div>
-        <div class="footer-bottom">
-            <div class="social-icons">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Uomo is your one-stop shop for fresh groceries and pantry essentials.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Address: 123 Grocery St, City, State 12345</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="app-links">
-                <a href="#">App Store</a>
-                <a href="#">Google Play</a>
+            <div class="copyright">
+                <p>&copy; 2024 Uomo Online Grocery Store. All rights reserved.</p>
             </div>
         </div>
     </footer>
